@@ -38,7 +38,7 @@ $ npm install --only=prod
 $ node ./bin/pta cloud
 ```
 
-Alternatively, instead using git you can download an archive from Github, unpack it, and install dependencies with npm.
+Alternatively, instead using git you can [download an archive from Github](https://github.com/DenuvoSoftwareSolutions/ping-them-all/archive/refs/heads/master.zip), unpack it, and install dependencies with npm.
 
 ## How can I contribute?
 
