@@ -39,3 +39,20 @@ Then open console and type:
 ```
 
 Alternatively, instead using git you can download archive from github, unpack it and install dependencies with npm.
+
+## How can I contribute?
+
+First of all, please report your pings - especially to `cloud` target :)
+Secondly, let us know about hosts of other cloud providers we could add.
+
+If you would like to add some new functionality or improve existing, feel free to create pull request.
+
+## Where report bugs?
+
+[DenuvoSoftwareSolutions/ping-them-all/issues](https://github.com/DenuvoSoftwareSolutions/ping-them-all/issues)
+Please prefix title with `BUG: <title here>`
+
+## Where can I report my pings?
+
+[DenuvoSoftwareSolutions/ping-them-all/issues](https://github.com/DenuvoSoftwareSolutions/ping-them-all/issues)
+Please prefix title with `PING: <title here>`
