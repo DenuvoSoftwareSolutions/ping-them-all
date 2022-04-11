@@ -1,0 +1,22 @@
+{
+  "name": "ping-them-all",
+  "version": "0.0.0",
+  "description": "Script which ping some servers around world",
+  "bin": {
+    "ping-them-all": "./bin/pta"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "author": "Tomasz Frydrych",
+  "license": "MIT",
+  "repository": "https://github.com/DenuvoSoftwareSolutions/ping-them-all.git",
+  "devDependencies": {
+    "js-beautify": "^1.14.0",
+    "jshint": "^2.13.4"
+  },
+  "dependencies": {
+    "ping": "^0.4.1"
+  }
+}

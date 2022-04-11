@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+'use strict';
+require("../src/pta.js")(process.argv.slice(2), process.cwd());
