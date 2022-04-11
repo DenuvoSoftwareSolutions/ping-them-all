@@ -42,7 +42,8 @@ Alternatively, instead using git you can [download an archive from Github](https
 
 ## How can I contribute?
 
-First of all, please report your pings - especially to `cloud` target :)
+First of all, please report your pings - especially to `cloud` target :) - It should take around 5 minutes to complete.
+
 Secondly, let us know about hosts of other cloud providers we could add.
 
 If you would like to add some new functionality or improve existing, feel free to create pull request.
