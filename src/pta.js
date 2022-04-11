@@ -105,21 +105,21 @@ function main(args, cwd) {
     if (args.length === 0) {
         console.log("use: ./pta <targets>\n");
         console.log("available targets:");
-        console.log("  * 'debianSmall' - subset of major debian mirrors - 35 targets");
-        console.log("  * 'debianBig' - most of remaining debian mirrors - 255 targets");
+        console.log("  * 'debianSmall' - subset of major Debian mirrors - 35 targets");
+        console.log("  * 'debianBig' - most of remaining Debian mirrors - 255 targets");
         console.log("  * 'debian' - debianBig+debianSmall - 290 targets\n");
         console.log("  * 'alibaba' - 20 targets");
         console.log("  * 'aws' - 26 targets");
         console.log("  * 'digitalocean' - 13 targets");
         console.log("  * 'google' - 15 targets");
         console.log("  * 'ovh' - 10 targets");
-        console.log("  * 'cloud' - alibaba+aws+digitalocean+google+ovh - 84 targets\n");
-        console.log("  * 'all' - debian+cloud - 374 targets");
-        console.log("  * <your path here> - you may as well create custom target list - it just need to be json file with array of domains to ping\n\n");
+        console.log("  * 'cloud' - alibaba+AWS+digitalocean+Google+OVH - 84 targets\n");
+        console.log("  * 'all' - Debian+cloud - 374 targets");
+        console.log("  * <your path here> - you may as well create a custom target list - it just need to be JSON file with array of domains to ping\n\n");
         console.log("note: more targets to ping means more time to wait to get results");
         console.log("examples:");
-        console.log("  * './pta ovh google' - will collect pings to ovh and google cloud");
-        console.log("  * './pta debianSmall aws ./myList.json' - will collect pings to subset of debian mirrors, aws and hosts listed in myList.json file\n");
+        console.log("  * './pta ovh google' - will collect pings to OVH and Google cloud");
+        console.log("  * './pta debianSmall aws ./myList.json' - will collect pings to subset of debian mirrors, AWS and hosts listed in myList.json file\n");
         console.log("example custom list file content: [\"google.com\", \"wikipedia.org\"]");
     } else {
         var hosts = prepareHosts(args);
