@@ -1,7 +1,7 @@
 {
   "name": "ping-them-all",
   "version": "0.0.0",
-  "description": "Script which ping some servers around world",
+  "description": "Script which pings some servers around the world",
   "bin": {
     "ping-them-all": "./bin/pta"
   },
