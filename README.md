@@ -42,8 +42,10 @@ Alternatively, instead using git you can download archive from github, unpack it
 
 ## How can I contribute?
 
-First of all report your pings :)
-If you would like to add some functionality, feel free to create pull request.
+First of all report your pings - especially to `cloud` target :)
+Secondly let us know about hosts of other cloud providers we could add.
+
+If you would like to add some new functionality or improve existing, feel free to create pull request.
 
 ## Where report bugs?
 
