@@ -32,10 +32,10 @@ First of all you will have to install [nodejs](https://nodejs.org/en/download/)
 
 Then open a console and type:
 ```
-# git clone https://github.com/DenuvoSoftwareSolutions/ping-them-all.git
-# cd ping-them-all
-# npm install --only=prod
-# node ./bin/pta cloud
+$ git clone https://github.com/DenuvoSoftwareSolutions/ping-them-all.git
+$ cd ping-them-all
+$ npm install --only=prod
+$ node ./bin/pta cloud
 ```
 
 Alternatively, instead using git you can download an archive from Github, unpack it, and install dependencies with npm.
