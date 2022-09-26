@@ -2,9 +2,11 @@
 
 This simple script sends pings to servers around the world and generates a report with collected measurements.
 It comes with several predefined lists of targets you can choose from or you can define your own lists.
-Information about your aproximated geographical location is attached to the report and is based on [ip-api.com](http://ip-api.com).
+Information about your approximated geographical location is attached to the report and is based on [ip-api.com](http://ip-api.com).
 
-available targets:
+See the accompanying writeup [Your ping will not improve!](https://denuvosoftwaresolutions.github.io/ping-them-all/ping.html).
+
+Available targets:
   * `debianSmall` - subset of major Debian mirrors - 35 targets
   * `debianBig` - most of remaining Debian mirrors - 255 targets
   * `debian` - debianBig+debianSmall - 290 targets
@@ -18,13 +20,13 @@ available targets:
   * `<your path here>` - you may as well create custom target list - it just needs to be a JSON file with array of domains to ping
 
 
-note: more targets to ping means more time to wait for to get results
+Note: more targets to ping means more time to wait for to get results
 
-examples:
+Examples:
   * `./pta ovh google` - will collect pings to OVH and Google cloud
   * `./pta debianSmall aws ./myList.json` - will collect pings to subset of Debian mirrors, AWS and hosts listed in `myList.json` file
 
-example custom list file content: `["google.com", "wikipedia.org"]`
+Example custom list file content: `["google.com", "wikipedia.org"]`
 
 ## How to run it?
 
