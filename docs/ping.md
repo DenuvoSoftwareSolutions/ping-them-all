@@ -1,6 +1,6 @@
 # Your ping will not improve!
 
-March 2022
+March 2022, &copy; Denuvo GmbH
 
 Unless a serious revolution in physics happens or games put more attention on the importance of server geo-location.
 

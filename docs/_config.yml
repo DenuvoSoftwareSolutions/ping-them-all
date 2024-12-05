@@ -7,7 +7,7 @@ remote_theme: jekyll/minima@v2.5.2
 defaults:
   -
     scope:
-      path: "ping*"
+      path: ""
     values:
       layout: default
       image: https://denuvosoftwaresolutions.github.io/ping-them-all/ping.png
@@ -22,3 +22,8 @@ minima:
     twitter: gamingatdenuvo
     github:  denuvosoftwaresolutions
     linkedincompany: denuvo-gmbh
+
+plugins:
+  - jekyll-default-layout
+  - jekyll-remote-theme
+  - jekyll-optional-front-matter
