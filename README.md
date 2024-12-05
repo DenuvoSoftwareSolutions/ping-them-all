@@ -1,5 +1,7 @@
 # ping-them-all
 
+September 2022, &copy; Denuvo GmbH
+
 This simple script sends pings to servers around the world and generates a report with collected measurements.
 It comes with several predefined lists of targets you can choose from or you can define your own lists.
 Information about your approximated geographical location is attached to the report and is based on [ip-api.com](http://ip-api.com).

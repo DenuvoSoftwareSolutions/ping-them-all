@@ -2,7 +2,7 @@ title: "Your ping will not improve!"
 author:
   name: "Anti-Cheat Team @ Denuvo"
 bio: "Denuvo by Irdeto's Anti-Cheat team is located in Wroclaw, Poland and Salzburg, Austria. Its mission is to stealthily detect cheating attempts and provide evidence for best-in-class anti-cheat solutions employed by global gaming customers."
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@v2.5.2
 
 defaults:
   -
